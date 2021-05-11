@@ -53,7 +53,7 @@ if (status == 'DC Pump without MPPT'):
         st.write('''***Rating of pump: ***''',motor_rating, '''***hp***''')
         
         image1 = Image.open('with MPPT.png')
-        font_type = ImageFont.truetype('Arial.ttf',50)
+        font_type = ImageFont.truetype('arial.ttf',50)
         draw = ImageDraw.Draw(image1)
 
         pv=str(format(total_pv_wattage, '.2f'))
@@ -104,7 +104,7 @@ if (status == 'DC Pump with MPPT'):
         st.write('''***Rating of pump: ***''',motor_rating, '''***hp***''')
 
         image1 = Image.open('without MPPT.png')
-        font_type = ImageFont.truetype('Arial.ttf',50)
+        font_type = ImageFont.truetype('arial.ttf',50)
         draw = ImageDraw.Draw(image1)
 
         pv=str(format(total_pv_wattage, '.2f'))
