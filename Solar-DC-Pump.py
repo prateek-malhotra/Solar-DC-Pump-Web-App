@@ -22,7 +22,7 @@ peak_sun_hours = st.number_input('Peak sunshine hours')
 
 
 status = st.radio('Select your design: ',
-                ('DC Pump without MPPT', 'DC Pump with MPPT'))
+                ('DC Pump with MPPT', 'DC Pump without MPPT'))
 
 
 
@@ -52,7 +52,7 @@ if (status == 'DC Pump without MPPT'):
         st.write('''***PV Wattage required: ***''',total_pv_wattage, '''***watts***''')
         st.write('''***Rating of pump: ***''',motor_rating, '''***hp***''')
         
-        image1 = Image.open('with MPPT.png')
+        image1 = Image.open('without MPPT.png')
         font_type = ImageFont.truetype('arial.ttf',50)
         draw = ImageDraw.Draw(image1)
 
@@ -103,7 +103,7 @@ if (status == 'DC Pump with MPPT'):
         st.write('''***PV Wattage required: ***''',total_pv_wattage, '''***watts***''')
         st.write('''***Rating of pump: ***''',motor_rating, '''***hp***''')
 
-        image1 = Image.open('without MPPT.png')
+        image1 = Image.open('with MPPT.png')
         font_type = ImageFont.truetype('arial.ttf',50)
         draw = ImageDraw.Draw(image1)
 
