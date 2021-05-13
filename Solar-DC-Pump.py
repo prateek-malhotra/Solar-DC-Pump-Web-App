@@ -22,7 +22,7 @@ peak_sun_hours = st.number_input('Peak sunshine hours')
 
 
 status = st.radio('Select your design: ',
-                ('DC Pump without MPPT', 'DC Pump with MPPT'))
+                ('DC Pump with MPPT', 'DC Pump without MPPT'))
 
 
 
