@@ -15,9 +15,7 @@ st.sidebar.markdown(link2, unsafe_allow_html=True)
 
 
 
-# water = 25000
-# vertical_lift = 10
-# peak_sun_hours = 6
+
 water = st.number_input('Water drawn/day (in liters)')
 vertical_lift = st.number_input('Total vertical lift (in m)')
 peak_sun_hours = st.number_input('Peak sunshine hours')
@@ -127,12 +125,7 @@ if (status == 'DC Pump with MPPT'):
 
         st.image(image1,use_column_width=True)
 
-# if(st.button('Calculate')):
-    
-#     # print results
-#     st.write('''***Total Dynamic Head (THD) is: ***''',TDH, '''***m***''')
-#     st.write('''***PV Wattage required is: ***''',total_pv_wattage, '''***watts***''')
-#     st.write('''***Rating of pump is: ***''',motor_rating, '''***hp***''')
+
 
 
 
