@@ -7,7 +7,7 @@ st.image(image,use_column_width=True)
 st.sidebar.write("""# Solar DC Pump Designing
  ***By: Prateek Malhotra*** """)
 link = '[Linkedin](https://www.linkedin.com/in/prateek-malhotra/)'
-link1 = '[Github](https://github.com/pm1306)'
+link1 = '[Github](https://github.com/prateek-malhotra)'
 link2 = '[Blogger - Sun In City](https://sunincity.blogspot.com/)'
 st.sidebar.markdown(link, unsafe_allow_html=True)
 st.sidebar.markdown(link1, unsafe_allow_html=True)
