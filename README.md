@@ -5,7 +5,6 @@ I have made this web application using Python + Streamlit, and deployment is don
 
 http://solar-dc-pump.herokuapp.com/
 
-![image](https://user-images.githubusercontent.com/70006534/119230249-0537b900-bb39-11eb-9311-aba2d6b7bc9c.png)
+![streamlit-Solar-DC-Pump-2021-05-13-20-05-55](https://user-images.githubusercontent.com/70006534/119518003-bf2b6100-bd95-11eb-9256-1b5d414d25cd.gif)
 
-https://user-images.githubusercontent.com/70006534/119517522-517f3500-bd95-11eb-89f8-b73f11bc23b3.mp4
 
